@@ -33,7 +33,7 @@ It includes logic to validate moves, check for wins and handel draws.
 <br>
 ------Requirements:------
 - Java Development Kit (JDK) 8 or higher.
-- Any JAVA IDE or a text editor with teriminal access.
+- Any Java IDE or a text editor with teriminal access.
 <br>
 ------Files required:------
 <br>
