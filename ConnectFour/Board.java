@@ -19,7 +19,7 @@ public class Board {
                 return true;
             }
         }
-        return false; // column full
+        return false; // column is full
     }
 
     public boolean isFull() {
@@ -30,7 +30,6 @@ public class Board {
     }
 
     public boolean checkWin(char disc) {
-        // Horizontal check
         for (int r = 0; r < ROWS; r++) {
             for (int c = 0; c <= COLS - 4; c++) {
                 if (grid[r][c] == disc && grid[r][c+1] == disc &&
@@ -38,7 +37,7 @@ public class Board {
                     return true;
             }
         }
-        // Vertical check
+
         for (int c = 0; c < COLS; c++) {
             for (int r = 0; r <= ROWS - 4; r++) {
                 if (grid[r][c] == disc && grid[r+1][c] == disc &&
@@ -46,7 +45,7 @@ public class Board {
                     return true;
             }
         }
-        // Diagonal (bottom-left to top-right)
+
         for (int r = 3; r < ROWS; r++) {
             for (int c = 0; c <= COLS - 4; c++) {
                 if (grid[r][c] == disc && grid[r-1][c+1] == disc &&
@@ -54,7 +53,7 @@ public class Board {
                     return true;
             }
         }
-        // Diagonal (top-left to bottom-right)
+
         for (int r = 0; r <= ROWS - 4; r++) {
             for (int c = 0; c <= COLS - 4; c++) {
                 if (grid[r][c] == disc && grid[r+1][c+1] == disc &&
@@ -76,7 +75,6 @@ public class Board {
     }
 
     public char[][] getGrid() {
-        // Return deep copy if needed (optional)
         return grid;
     }
 
