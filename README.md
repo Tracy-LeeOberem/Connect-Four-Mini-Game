@@ -10,10 +10,10 @@ It includes logic to validate moves, check for wins and handel draws.
 
 ## Setup Instructions:
 **Play the Game from .jar file:**
+<br>
 ------Requirements:------
 <br>
 - Java Runtime Enviroment (JRE) 8 or higher.
-<br>
 - You are able to check your version of Java by running "java -version" in command prompt.
 <br>
 ------Files Needed:------
@@ -22,13 +22,13 @@ It includes logic to validate moves, check for wins and handel draws.
 ------Steps:------
 <br>
 - Download the "ConnectFourApp.jar" file.
-<br>
 - Run the game via the downloaded .jar file.
 <br>
 <br>
 <br>
 
 **Run from source code:**
+<br>
 ------Requirements:------
 - Java Development Kit (JDK) 8 or higher.
 - Any JAVA IDE or a text editor with teriminal access.
