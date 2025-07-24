@@ -17,7 +17,8 @@ It includes logic to validate moves, check for wins and handel draws.
 - You are able to check your version of Java by running "java -version" in command prompt.
 <br>
 ------Files Needed:------
-  -ConnectFourApp.jar
+  <br>
+-ConnectFourApp.jar
 <br>
 ------Steps:------
 <br>
@@ -34,10 +35,12 @@ It includes logic to validate moves, check for wins and handel draws.
 - Any JAVA IDE or a text editor with teriminal access.
 <br>
 ------Files required:------
+<br>
 - ConnectFour.java
 - ConnectFourGUI.java
 <br>
 ------Steps:------
+  <br>
 - Create a new Java Project folder.
 - Place the "ConnectFour.java" and "ConnectFourGUI.java" files in the same folder/directory.
 - Complie the code in command prompt:
