@@ -44,9 +44,9 @@ It includes logic to validate moves, check for wins and handel draws.
 ------Steps:------
   <br>
 - Create a new Java Project folder.
-- <br>
+  <br>
 - Place the "ConnectFour.java" and "ConnectFourGUI.java" files in the same folder/directory.
-- <br>
+  <br>
 - Complie the code in command prompt:
   <br>
   "javac ConnectFour.java ConnectForGui.java"
