@@ -20,6 +20,7 @@ It includes logic to validate moves, check for wins and handel draws.
   <br>
 -ConnectFourApp.jar
 <br>
+<br>
 ------Steps:------
 <br>
 - Download the "ConnectFourApp.jar" file.
