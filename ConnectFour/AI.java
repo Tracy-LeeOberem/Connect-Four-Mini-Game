@@ -62,9 +62,6 @@ public class AI {
     }
 
     private int evaluateBoard(Board board) {
-        // Simple heuristic: count potential 2s and 3s in a row for AI minus human
-        // This is a simplified heuristic — can be improved
-
         int score = 0;
         score += countPatterns(board, aiDisc, 3) * 100;
         score += countPatterns(board, aiDisc, 2) * 10;
@@ -79,7 +76,6 @@ public class AI {
         int count = 0;
         char[][] grid = board.getGrid();
 
-        // Horizontal
         for (int r = 0; r < Board.ROWS; r++) {
             for (int c = 0; c <= Board.COLS - length; c++) {
                 int discs = 0, empties = 0;
@@ -91,7 +87,7 @@ public class AI {
                 else if (discs + empties == length && discs > 0) count++;
             }
         }
-        // Vertical
+
         for (int c = 0; c < Board.COLS; c++) {
             for (int r = 0; r <= Board.ROWS - length; r++) {
                 int discs = 0, empties = 0;
@@ -103,7 +99,7 @@ public class AI {
                 else if (discs + empties == length && discs > 0) count++;
             }
         }
-        // Diagonal (bottom-left to top-right)
+
         for (int r = length - 1; r < Board.ROWS; r++) {
             for (int c = 0; c <= Board.COLS - length; c++) {
                 int discs = 0, empties = 0;
@@ -115,7 +111,7 @@ public class AI {
                 else if (discs + empties == length && discs > 0) count++;
             }
         }
-        // Diagonal (top-left to bottom-right)
+
         for (int r = 0; r <= Board.ROWS - length; r++) {
             for (int c = 0; c <= Board.COLS - length; c++) {
                 int discs = 0, empties = 0;
