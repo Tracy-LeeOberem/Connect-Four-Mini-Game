@@ -2,7 +2,7 @@
 A small mini game, Connect Four designed using Java.
 
 ## Decription:
-Developed a interactive Connect Four game using Java. Supporting both two-player and single-player modes, with a AI component included for single-player mode.
+Developed a interactive Connect Four game using Java. Supporting both two-player and single-player modes, with a AI component included for the single-player mode.
 
 ## Features:
 The game features a simple interface that allows players to drop disks into a 7x6 grid
@@ -43,14 +43,14 @@ It includes logic to validate moves, check for wins and handel draws.
 <br>
 ------Steps:------
   <br>
-- Create a new Java Project folder.
+- Create a new folder for the Java project.
   <br>
-- Place the "ConnectFour.java" and "ConnectFourGUI.java" files in the same folder/directory.
+- Place the "ConnectFour.java" and "ConnectFourGUI.java" files into the folder.
   <br>
-- Complie the code in command prompt:
+- Compile the code in command prompt:
   <br>
   "javac ConnectFour.java ConnectForGui.java"
   <br>
-- Run the program in command prompt (or in IDE):
+- Run the program in command prompt (or in the IDE):
   <br>
   "java ConnectFourGUI"
